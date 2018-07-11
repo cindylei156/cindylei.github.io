@@ -2,14 +2,14 @@ function changePic() {
   var image =  document.getElementById("capybara");
 
 
-    if (image.getAttribute('src') == "capyimages/yawningcapy.jpg"){
-      image.src = "capyimages/capyonchair.jpg";
-    }  else if (image.getAttribute('src') == "capyimages/capyonchair.jpg"){
-      image.src = "capyimages/pettigrewcapy.jpg"
-    } else if (image.getAttribute('src') == "capyimages/pettigrewcapy.jpg"){
-      image.src = "capyimages/closeupcapy.jpeg"
+    if (image.getAttribute('src') == "ProjectCapy/capyimages/yawningcapy.jpg"){
+      image.src = "ProjectCapy/capyimages/capyonchair.jpg";
+    }  else if (image.getAttribute('src') == "ProjectCapy/capyimages/capyonchair.jpg"){
+      image.src = "ProjectCapy/capyimages/pettigrewcapy.jpg"
+    } else if (image.getAttribute('src') == "ProjectCapy/capyimages/pettigrewcapy.jpg"){
+      image.src = "ProjectCapy/capyimages/closeupcapy.jpeg"
     } else {
-      image.src = "capyimages/yawningcapy.jpg"
+      image.src = "ProjectCapy/capyimages/yawningcapy.jpg"
     }
 }
 
